@@ -1,0 +1,156 @@
+{
+  "api": {
+    "titles": [
+      "Canal View Prinsengracht",
+      "Nice, cozy, warm big bed apartment",
+      "Perfectly located Castro",
+      "Beautiful & luxurious studio at great location",
+      "Wood and stone place"
+    ],
+    "descriptions": [
+      "Relax, rejuvenate and unplug in this ultimate rustic getaway experience in the country.",
+      "In our beautiful screened Pondhouse, you can gaze at the stars and listen to the sounds of nature from your cozy warm bed",
+      "A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam.",
+      "This is a place for dreamers to reset, reflect, and create.",
+      "Designed with a 'slow' pace in mind, our hope is that you enjoy every part of your stay"
+    ],
+    "offerDates": [
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-13",
+      "2023-05-14",
+      "2023-05-15"
+    ],
+    "cities": [
+      "Amsterdam",
+      "Dusseldorf",
+      "San Francisco",
+      "Paris",
+      "Brussels"
+    ],
+    "previewImages": [
+      "amsterdam-previewImage.jpg",
+      "dusseldorf-previewImage.jpg",
+      "san-francisco-previewImage.jpg",
+      "paris-previewImage.jpg",
+      "brussels-previewImage.jpg"
+    ],
+    "images": [
+      ["https://amsterdam-previewImage1.jpg", "https://amsterdam-previewImage2.jpg", "https://amsterdam-previewImage3.jpg"],
+      ["https://dusseldorf-previewImage1.jpg", "https://dusseldorf-previewImage2.jpg", "https://dusseldorf-previewImage3.jpg"],
+      ["https://san-francisco-previewImage1.jpg", "https://san-francisco-previewImage2.jpg", "https://san-francisco-previewImage3.jpg"],
+      ["https://paris-previewImage1.jpg", "https://paris-previewImage2.jpg", "https://paris-previewImage3.jpg"],
+      ["https://brussels-previewImage1.jpg", "https://brussels-previewImage2.jpg", "https://brussels-previewImage3.jpg"]
+    ],
+    "isPremium":[
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    "isFavorite": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "ratings": [
+      4.5,
+      4.9,
+      4.7,
+      4.6,
+      4.4
+    ],
+    "types": [
+      "apartment",
+      "room",
+      "house",
+      "hotel",
+      "room"
+    ],
+    "bedrooms": [
+      3,
+      1,
+      2,
+      4,
+      5
+    ],
+    "maxAdults": [
+      4,
+      2,
+      3,
+      6,
+      8
+    ],
+    "prices": [
+      120,
+      255,
+      140,
+      190,
+      220
+    ],
+    "amenities": [
+      "Fridge",
+      "Dishwasher",
+      "Baby seat",
+      "Air conditioning",
+      "Laptop friendly workspace"
+    ],
+    "advertiser": [
+      {
+        "username": "Angelina",
+        "email": "angelina@mail.com",
+        "avatarPath": "img/avatar-angelina.jpg",
+        "status": "pro"
+      },
+      {
+        "username": "Tommy",
+        "email": "tommy@mail.com",
+        "avatarPath": "img/avatar-tommy.jpg",
+        "status": "pro"
+      },
+      {
+        "username": "Katy",
+        "email": "katy@mail.com",
+        "avatarPath": "img/avatar-katy.jpg",
+        "status": "обычный"
+      },
+      {
+        "username": "Mark",
+        "email": "mark@mail.com",
+        "avatarPath": "img/avatar-mark.jpg",
+        "status": "обычный"
+      },
+      {
+        "username": "Alex",
+        "email": "alex@mail.com",
+        "avatarPath": "img/avatar-alex.jpg",
+        "status": "pro"
+      }
+    ],
+    "location": [
+      {
+        "latitude": 48.85661,
+        "longitude": 2.351499
+      },
+      {
+        "latitude": 51.225402,
+        "longitude": 6.776314
+      },
+      {
+        "latitude": 53.550341,
+        "longitude": 10.000654
+      },
+      {
+        "latitude": 50.846557,
+        "longitude": 4.351697
+      },
+      {
+        "latitude": 48.85661,
+        "longitude": 2.351499
+      }
+    ]
+  }
+}
