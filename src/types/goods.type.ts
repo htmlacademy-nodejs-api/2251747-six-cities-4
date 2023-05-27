@@ -6,5 +6,5 @@ export enum Goods {
   BabySeat = 'Baby seat',
   Washer = 'Washer',
   Towels = 'Towels',
-  Fridge = 'Fridge'
+  Fridge = 'Fridge',
 }
