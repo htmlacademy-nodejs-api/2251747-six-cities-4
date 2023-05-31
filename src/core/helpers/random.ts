@@ -1,4 +1,3 @@
-
 import { Location } from '../../types/location.type';
 
 export function generateRandomValue(min:number, max: number, numAfterDigit = 0) {

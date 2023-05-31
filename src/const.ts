@@ -29,3 +29,4 @@ export const MAX_COUNT_OFFER_GUESTS = 10;
 
 export const CHUNK_SIZE_READER = 16384;
 export const CHUNK_SIZE_WRITER = 2 ** 16;
+

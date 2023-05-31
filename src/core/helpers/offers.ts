@@ -56,7 +56,7 @@ export function createOffer(offerData: string): RentOffer {
     price: parseFloat(price),
     goods: goods.split(';'),
     location,
-    advertiser
+    advertiser,
   } as RentOffer;
 
 }
