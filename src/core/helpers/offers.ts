@@ -5,34 +5,31 @@ export function createOffer(offerData: string): RentOffer {
   const [
     title,
     description,
-    offerDate,
+    publishDate,
     city,
     longitude,
     latitude,
     previewImage,
-    images,
+    photos,
     isPremium,
     isFavorite,
     rating,
     type,
-    bedrooms,
-    maxAdults,
+    rooms,
+    guests,
     price,
     goods,
     username,
     email,
     avatarPath,
-    password,
     status,
-
   ] = offerData.replace('\n', '').split('\t');
 
-  const advertiser = {
+  const user = {
     username,
     email,
     avatarPath,
-    password,
-    status: status as 'pro' | 'обычный',
+    status: status as 'pro' | 'base',
   };
 
   const location = {
@@ -43,20 +40,20 @@ export function createOffer(offerData: string): RentOffer {
   return {
     title,
     description,
-    offerDate:  new Date(offerDate).toISOString(),
+    publishDate:  new Date(publishDate).toISOString(),
     city: City[city as keyof typeof City],
     previewImage,
-    images: images.split(';'),
+    photos: photos.split(';'),
     isPremium: Boolean(isPremium),
     isFavorite: Boolean(isFavorite),
     rating: parseFloat(rating),
     type,
-    bedrooms: parseInt(bedrooms, 10),
-    maxAdults: parseInt(maxAdults, 10),
+    rooms: parseInt(rooms, 10),
+    guests: parseInt(guests, 10),
     price: parseFloat(price),
     goods: goods.split(';'),
     location,
-    advertiser,
+    user,
   } as RentOffer;
 
 }

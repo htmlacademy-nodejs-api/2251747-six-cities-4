@@ -30,3 +30,18 @@ export const MAX_COUNT_OFFER_GUESTS = 10;
 export const CHUNK_SIZE_READER = 16384;
 export const CHUNK_SIZE_WRITER = 2 ** 16;
 
+export const MIN_USERNAME_LENGTH = 1;
+export const MAX_USERNAME_LENGTH = 15;
+
+export const DEFAULT_AVATAR_URL = 'https://via.placeholder.com/20x20?text=A';
+
+export const MIN_OFFER_TITLE_LENGTH = 10;
+export const MAX_OFFER_TITLE_LENGTH = 100;
+
+export const MIN_OFFER_DESCRIPTION_LENGTH = 20;
+export const MAX_OFFER_DESCRIPTION_LENGTH = 1024;
+
+export const OFFER_PHOTOS_AMOUNT = 6;
+
+export const DEFAULT_DB_PORT = '27017';
+export const DEFAULT_USER_PASSWORD = '123456';
