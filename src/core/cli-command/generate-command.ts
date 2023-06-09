@@ -1,4 +1,4 @@
-import OfferGenerator from '../../modules/offer-generator/offer-generator.js';
+import OfferGenerator from '../../modules/offer/offer-generator.js';
 import { MockData } from '../../types/mock-data.type';
 import TSVFileWriter from '../file-writer/tsv-file-writer.js';
 import { CliCommandInterface } from './cli-command.interface';
